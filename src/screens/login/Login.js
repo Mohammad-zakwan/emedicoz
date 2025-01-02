@@ -25,7 +25,7 @@ const Login = ({navigation}) => {
     if (Object.keys(number).length < 10 || Object.keys(number).length >= 11) {
       toast.show('Please enter a valid number', {
         type: '',
-        offset: 100,
+        offset: 200,
         animationType: 'zoom-in',
       });
     } else {
