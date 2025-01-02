@@ -6,7 +6,6 @@ import { Login, Otp, Splash } from '../screens';
 const AuthStack = createNativeStackNavigator();
 
 export default function AuthStackScreen() {
-  console.log("first")
   return (
     <AuthStack.Navigator screenOptions={{ headerShown: false }}>
       <AuthStack.Screen
