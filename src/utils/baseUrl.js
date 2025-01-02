@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Store from '../redux/Store';
 
-// export const API_BASE_URL = "http://dev.emedicoz.com/qa/emedicoz-api";
+//export const API_BASE_URL = "http://dev.emedicoz.com/qa/emedicoz-api";
 export const API_BASE_URL = "https://dev.emedicoz.com/staging/emedicoz-api";
 //export const API_BASE_URL = "https://dev.emedicoz.com/development/emedicoz-api";
 // export const API_BASE_URL = 'https://d85g0bvcnm0si.cloudfront.net';
